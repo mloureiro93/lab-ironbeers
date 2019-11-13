@@ -1,11 +1,13 @@
+{{#each randombeer}}
 <div id='randomBeer-container'>
-<div><img src="{{image_url}}"> </div>    
-<div id='beer-description'>
-{{name}} <br>
-{{tagline}} <br>
-{{description}}<br>
-{{food_pairing}}<br>
-{{brewers_tips}}
-</div>
+    <div><img src="{{image_url}}"> </div>
+    <div id='beer-description'>
+        {{name}} <br>
+        {{tagline}} <br>
+        {{description}}<br>
+        {{food_pairing}}<br>
+        {{brewers_tips}}
+    </div>
 
- </div>   
+</div>
+{{/each}}
